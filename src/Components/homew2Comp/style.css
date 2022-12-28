@@ -1,0 +1,41 @@
+
+.homew2d1{
+    width: 23%;
+    height: auto;
+    background-color: white;
+    box-shadow:0px 0px 22px -8px #000000;
+    margin-bottom: 35px;
+}
+
+.homew2d1img1{
+    width: 88%;
+    padding: 25px 0px;
+}
+
+.homew2d1btn1{
+   
+    padding: 18px 22px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #1b1b1b;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.70;
+}
+
+.homew2d1btn1:hover{
+  background-color: #f6f8a5;
+  opacity: 1;
+  transition: 0.5s;
+
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 1000px)  {
+ .homew2d1{
+   width: 100%;
+ }
+}
+

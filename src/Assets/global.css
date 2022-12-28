@@ -1,0 +1,79 @@
+
+@import url('./icons/style.css');
+
+*{
+    margin: 0;
+}
+
+.G-mainDiv{
+    width: 75%;
+    max-width: 1870px;
+}
+
+.G-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.G-header{
+    font-size: 52px;
+    color: #3d3d3c;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 40px;
+}
+
+.G-end{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.G-textP{
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: -10px;
+    line-height: 35px;
+    font-family: 'Poppins', sans-serif;
+    color: #898989;
+}
+
+
+.G-mainBtn{
+    padding: 10px 23px;
+    border: none;
+    cursor: pointer;
+    background-color: #f6f8a5;
+    color: #1b1b1b;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;    
+    font-size: 15px;
+}
+
+.G-mainBtn:hover{
+    background-color: #1b1b1b;
+    color: white;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 1000px)  {
+  
+    .G-mainDiv{
+        width: 95%;
+    }
+
+    .G-textP{
+        font-size: 18px;
+    }
+    .G-header{
+        font-size: 45px;
+    }
+    
+    }
+
+
+
+

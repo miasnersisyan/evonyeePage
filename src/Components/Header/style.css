@@ -1,0 +1,144 @@
+
+.w1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    padding: 20px 0px;
+    border-bottom: solid rgba(255,255,255,.1) 1px;
+    background: none;
+}
+
+.w1-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    align-items: center;
+}
+
+.w1-1d1{
+    width: auto;
+    display: flex;
+}
+
+.w1img2{
+    margin-left: 40px;
+}
+.w1img1{
+    cursor: pointer;
+}
+.w1btn1{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: #222;
+    margin-left: 20px;
+    font-size: 19px;
+}
+
+.w2{
+    width: 100%;
+    height: 485px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+.w2-1{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.darkDiv{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  background-color: #6b6c70;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.pagesName{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.headerinp1div{
+    transition: 0.5s;
+    width: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 0;
+}
+
+.headerinp1{
+  
+    transition: 0.5s;
+    width: 300px;
+    margin-left: 20px;
+   
+    opacity: 1;
+    height: 50px;
+    border: none;
+    background-color: #222;
+    border-radius: 55px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+   
+   
+    padding-left: 20px;
+
+}
+
+.headerinp1:focus-visible{
+    outline: none;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 1000px)  {
+  
+.w1-1{
+    display: block;
+}
+
+.mediaw1-1d1{
+    margin-top: 30px;
+}
+
+.w1btnnone{
+    display: none;
+}
+
+.darkDiv{
+    display: none;
+}
+
+.w2{
+    height: 350px;
+   
+    
+}
+
+.w2-1{
+    display: block
+
+}
+}
